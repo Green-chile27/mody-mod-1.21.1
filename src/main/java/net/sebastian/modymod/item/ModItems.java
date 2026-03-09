@@ -8,9 +8,15 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.sebastian.modymod.ModyMod;
 
+//This is where all the custom mod items are stored. This code is written by me
 public class ModItems {
+
+    //These two items are just examples items from tutorial (Delete later)
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+
+    //My actual custom items:
+    public static final Item PORK_SANDWICH = registerItem("pork_sandwich", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ModyMod.MOD_ID, name), item);
@@ -22,7 +28,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
             entries.add(RAW_PINK_GARNET);
-            //fabricItemGroupEntries.add(PINK_GARNET); //If it doesn;t work this migh be why (change it to fabricEntries)
+            entries.add(PORK_SANDWICH);
         });
     }
 }
