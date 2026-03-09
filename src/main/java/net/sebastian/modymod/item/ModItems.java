@@ -28,6 +28,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
             entries.add(RAW_PINK_GARNET);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(PORK_SANDWICH);
         });
     }
