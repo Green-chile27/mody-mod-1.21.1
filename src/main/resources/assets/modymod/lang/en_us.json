@@ -1,5 +1,7 @@
 {
   "item.modymod.pink_garnet": "Pink Garnet",
   "item.modymod.raw_limestone": "Raw Limestone",
-  "item.modymod.pork_sandwich": "Pork Sandwich"
+  "item.modymod.pork_sandwich": "Pork Sandwich",
+
+  "block.modymod.raw_limestone_block": "Block of Raw Limestone"
 }

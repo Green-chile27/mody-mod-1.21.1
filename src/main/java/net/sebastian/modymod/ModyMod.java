@@ -2,6 +2,7 @@ package net.sebastian.modymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sebastian.modymod.block.ModBlocks;
 import net.sebastian.modymod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class ModyMod implements ModInitializer {
 	@Override
 	public void onInitialize() { //(server side) when game launches, register everything listed here:
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
