@@ -3,5 +3,7 @@
   "item.modymod.raw_limestone": "Raw Limestone",
   "item.modymod.pork_sandwich": "Pork Sandwich",
 
-  "block.modymod.raw_limestone_block": "Block of Raw Limestone"
+  "block.modymod.raw_limestone_block": "Block of Raw Limestone",
+  "block.modymod.limestone_ore": "Limestone Ore",
+  "block.modymod.limestone_deepslate_ore": "Deepslate Limestone Ore"
 }

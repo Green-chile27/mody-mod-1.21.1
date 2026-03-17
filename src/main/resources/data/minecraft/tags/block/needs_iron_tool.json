@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "modymod:raw_limestone_block",
+    "modymod:limestone_ore",
+    "modymod:limestone_deepslate_ore"
+  ]
+}
